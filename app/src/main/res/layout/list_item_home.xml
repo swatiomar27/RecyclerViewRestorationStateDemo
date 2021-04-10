@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_6dp"
+    android:orientation="horizontal"
+    app:cardElevation="@dimen/margin_5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_url"
+            android:layout_width="@dimen/image_view_specs"
+            android:layout_height="@dimen/image_view_specs"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            app:shapeAppearance="@color/black"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerCut"
+            tools:src="@android:drawable/ic_btn_speak_now" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/padding_16dp"
+            android:layout_toEndOf="@id/iv_url"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="Home list" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

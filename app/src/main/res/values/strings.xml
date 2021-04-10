@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerViewRestorationPolicyDemo</string>
+    <string name="allow_sync">ALLOW_SYNC</string>
+    <string name="allow_async">ALLOW_ASYNC</string>
+    <string name="prevent_when_empty_sync">PREVENT_WHEN_EMPTY_SYNC</string>
+    <string name="prevent_when_empty_async">PREVENT_WHEN_EMPTY_ASYNC</string>
+    <string name="prevent">PREVENT</string>
+    <string name="recyclerview_restoration_state_demo">Recyclerview restoration state demo</string>
+</resources>
