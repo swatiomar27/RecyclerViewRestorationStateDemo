@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/allow_sync"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_5dp"
         android:padding="@dimen/padding_16dp"
@@ -38,7 +38,7 @@
 
     <TextView
         android:id="@+id/allow_async"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_5dp"
         android:padding="@dimen/padding_16dp"
@@ -53,7 +53,7 @@
 
     <TextView
         android:id="@+id/prevent_when_empty_sync"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_5dp"
         android:padding="@dimen/padding_16dp"
@@ -67,7 +67,7 @@
 
     <TextView
         android:id="@+id/prevent_when_empty_async"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_5dp"
         android:padding="@dimen/padding_16dp"
@@ -81,7 +81,7 @@
 
     <TextView
         android:id="@+id/prevent"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_5dp"
         android:padding="@dimen/padding_16dp"

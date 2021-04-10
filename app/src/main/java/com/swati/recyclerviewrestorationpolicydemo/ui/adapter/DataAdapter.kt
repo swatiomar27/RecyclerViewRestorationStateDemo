@@ -40,7 +40,7 @@ class DataAdapter(private var dataList: List<DataModel>) :
     }
 
     class ViewHolder(itemLayoutView: View) : RecyclerView.ViewHolder(itemLayoutView) {
-        var titleTextView: TextView = itemLayoutView.findViewById(R.id.title)
+        var titleTextView: TextView = itemLayoutView.findViewById(R.id.tv_title)
         var ivUrl: ShapeableImageView = itemLayoutView.findViewById(R.id.iv_url)
     }
 

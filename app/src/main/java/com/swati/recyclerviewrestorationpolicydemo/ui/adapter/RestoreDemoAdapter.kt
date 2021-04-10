@@ -1,6 +1,5 @@
 package com.swati.recyclerviewrestorationpolicydemo.ui.adapter
 
-import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -28,11 +27,10 @@ class RestoreDemoAdapter(private var dataList: ArrayList<String>) :
     }
 
     inner class DemoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        @SuppressLint("SetTextI18n")
         fun bind(position: Int) {
             val tvTitle = itemView.findViewById<TextView>(R.id.tv_title)
             val ivUrl = itemView.findViewById<ShapeableImageView>(R.id.iv_url)
-            tvTitle.text = "Title $position"
+            tvTitle.text = dataList[position]
             Picasso.get().load(R.drawable.ic_android_logo).into(ivUrl)
         }
     }

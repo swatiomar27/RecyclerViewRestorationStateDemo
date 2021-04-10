@@ -10,6 +10,7 @@
     app:cardUseCompatPadding="true">
 
     <RelativeLayout
+        android:padding="@dimen/margin_5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -18,7 +19,7 @@
             android:layout_width="@dimen/image_view_specs"
             android:layout_height="@dimen/image_view_specs"
             android:layout_centerVertical="true"
-            android:background="@color/white"
+            android:background="@android:color/holo_blue_dark"
             app:shapeAppearance="@color/black"
             app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerCut"
             tools:src="@android:drawable/ic_btn_speak_now" />

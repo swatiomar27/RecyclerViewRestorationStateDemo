@@ -15,7 +15,7 @@
     </style>
 
     <style name="ShapeAppearanceOverlay.App.CornerCut" parent="">
-        <item name="cornerSize">15dp</item>
+        <item name="cornerSize">5dp</item>
         <item name="cornerFamily">cut</item>
     </style>
 </resources>
